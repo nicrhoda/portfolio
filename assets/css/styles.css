@@ -1,0 +1,50 @@
+.about-me-content {
+    width: 50%;
+    background-color: #a3e8dc;
+    border-radius: 1rem;
+    border-color: #a3e8dc;
+    padding: .75rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    background-color: #69e1e5;
+
+}
+
+.content-title {
+    height: 2.5rem;
+    text-align: center;
+}
+
+.first-challenge-link {
+    text-align: center;
+    border: solid;
+}
+
+
+
+header {
+    text-align: center;
+    display: inline-block;
+}
+
+h2 {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+h2:hover {
+    background-color: #a3e8dc;
+    transition-duration: 0.24s;
+}
+
+#profile-image {
+    width: 10.5rem;
+    height: 10rem;
+    align-items: right;
+    padding: 1rem;
+}
