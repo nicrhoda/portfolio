@@ -1,34 +1,42 @@
+
+
 .about-me-content {
     width: 50%;
     background-color: #a3e8dc;
     border-radius: 1rem;
     border-color: #a3e8dc;
     padding: .75rem;
+    text-align: center;
+}
+.background {
+    background-color: #088185;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
-    display: flex;
-    flex-direction: row;
     border: solid;
     background-color: #69e1e5;
-
+    text-align: center;
+    margin: 2rem;
+    border-radius: 1rem;
+    width: 90%;
 }
 
 .content-title {
     height: 2.5rem;
     text-align: center;
-}
-
-.first-challenge-link {
-    text-align: center;
     border: solid;
 }
 
-
+#footer {
+    text-align: center;
+    background-color: gray;
+    height: 3rem;
+}
 
 header {
     text-align: center;
-    display: inline-block;
 }
 
 h2 {
@@ -42,9 +50,14 @@ h2:hover {
     transition-duration: 0.24s;
 }
 
+#portfolio-image {
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+}
+
 #profile-image {
     width: 10.5rem;
     height: 10rem;
-    align-items: right;
     padding: 1rem;
 }
