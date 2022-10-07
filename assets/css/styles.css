@@ -1,4 +1,4 @@
-
+/* class for the about me section of the document */
 
 .about-me-content {
     width: 50%;
@@ -8,12 +8,15 @@
     padding: .75rem;
     text-align: center;
 }
+
+/* wrapper to cover the entire document */
 .background {
     background-color: #088185;
     display: flex;
     flex-direction: column;
 }
 
+/* makes all of the content elements the same style and uniform */
 .content {
     border: solid;
     background-color: #69e1e5;
@@ -29,16 +32,19 @@
     border: solid;
 }
 
+/* class to cover the footer of the document */
 #footer {
     text-align: center;
     background-color: gray;
     height: 3rem;
 }
 
+
 header {
     text-align: center;
 }
 
+/* classes involving h2 and the hover effect for each one */
 h2 {
     padding: 1rem;
     background-color: white;
@@ -50,6 +56,7 @@ h2:hover {
     transition-duration: 0.24s;
 }
 
+/* id's to size and align the images correctly */
 #portfolio-image {
     width: 10rem;
     height: 10rem;
